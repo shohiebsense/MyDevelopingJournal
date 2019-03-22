@@ -145,3 +145,6 @@ StyleSpan(
 
 7. StartActivityForResult In Stacks
 https://medium.com/@douglas.iacovelli/android-send-result-back-through-multiple-activities-finished-or-not-4c2ba9e95112
+
+https://www.google.com/search?client=firefox-b-d&q=FLAG_ACTIVITY_FORWARD_RESULT
+FLAG_ACTIVITY_FORWARD_RESULT
