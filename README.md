@@ -148,3 +148,6 @@ https://medium.com/@douglas.iacovelli/android-send-result-back-through-multiple-
 
 https://www.google.com/search?client=firefox-b-d&q=FLAG_ACTIVITY_FORWARD_RESULT
 FLAG_ACTIVITY_FORWARD_RESULT
+
+8. Look upon this link if your generating signed apk error
+https://stackoverflow.com/questions/24098494/error-when-generate-signed-apk/52403664
