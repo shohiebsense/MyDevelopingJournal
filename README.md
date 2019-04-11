@@ -151,3 +151,5 @@ FLAG_ACTIVITY_FORWARD_RESULT
 
 8. Look upon this link if your generating signed apk error
 https://stackoverflow.com/questions/24098494/error-when-generate-signed-apk/52403664
+
+9. Consider to know the difference between SharedPreference.Editor.apply() and commit(). Commit() does the job immediately.
