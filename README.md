@@ -153,3 +153,27 @@ FLAG_ACTIVITY_FORWARD_RESULT
 https://stackoverflow.com/questions/24098494/error-when-generate-signed-apk/52403664
 
 9. Consider to know the difference between SharedPreference.Editor.apply() and commit(). Commit() does the job immediately.
+
+10. To sync-to not sync strategy:
+Using timestamp as flags, store the latest timestamp in SharedPreference
+- Using last upload time & last download time. When it's more often to interact.
+- Using last update.... if it's less often to interact.. like. Master Data.
+
+https://coderwall.com/p/gt_rfa/simple-data-synchronisation-for-web-mobile-apps-working-offline
+
+- last_update_on
+- created_on
+- deleted_on
+
+https://dzone.com/articles/how-to-make-mobile-app-work-offline
+
+- sync it using time stamp
+
+https://medium.com/mindorks/to-synk-or-not-to-synk-fcc6e4c56e14
+
+https://github.com/google/iosched
+
+https://github.com/karntrehan/Posts
+
+
+
