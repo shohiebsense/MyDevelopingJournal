@@ -175,5 +175,7 @@ https://github.com/google/iosched
 
 https://github.com/karntrehan/Posts
 
+Read more 
 
+https://www.reddit.com/r/androiddev/comments/6bh31s/offlinefirst_with_sync_best_way_to_approach_this/
 
