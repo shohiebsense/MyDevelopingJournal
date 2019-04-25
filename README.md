@@ -179,3 +179,5 @@ Read more
 
 https://www.reddit.com/r/androiddev/comments/6bh31s/offlinefirst_with_sync_best_way_to_approach_this/
 
+11. Clear Logs when in the release mode with proguard
+https://support.brightcove.com/removing-android-log-messages
