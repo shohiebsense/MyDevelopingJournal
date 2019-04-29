@@ -181,3 +181,6 @@ https://www.reddit.com/r/androiddev/comments/6bh31s/offlinefirst_with_sync_best_
 
 11. Clear Logs when in the release mode with proguard
 https://support.brightcove.com/removing-android-log-messages
+
+12. Analyze the error when signed build apk
+https://stackoverflow.com/questions/24098494/error-when-generate-signed-apk
