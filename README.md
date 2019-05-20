@@ -185,5 +185,7 @@ https://support.brightcove.com/removing-android-log-messages
 12. Analyze the error when signed build apk
 https://stackoverflow.com/questions/24098494/error-when-generate-signed-apk
 
+13. Use getText().clear() instead of setText("") to clear.
+
 13. Always check permission list 
 https://developer.android.com/guide/topics/permissions/overview
