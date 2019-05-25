@@ -191,10 +191,11 @@ https://stackoverflow.com/questions/24098494/error-when-generate-signed-apk
 https://developer.android.com/guide/topics/permissions/overview
 
 14. Adding filter list instead of replacinag
+```java
  InputFilter[] filterList = editText.getFilters();
-            InputFilter[] newFilterList = new InputFilter[filterList.length + 1];
-            System.arraycopy(filterList, 0, newFilterList, 0, filterList.length);
-            newFilterList[filterList.length] = new InputFilter.AllCaps();
-            editText.setFilters(newFilterList);
-            checkedEditTextList.add(editText);
+ InputFilter[] newFilterList = new InputFilter[filterList.length + 1];
+ System.arraycopy(filterList, 0, newFilterList, 0, filterList.length);
+ ```
+ then applies the edittext / textview the new filters.  
+      
 
