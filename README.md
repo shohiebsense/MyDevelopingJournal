@@ -197,5 +197,9 @@ https://developer.android.com/guide/topics/permissions/overview
  System.arraycopy(filterList, 0, newFilterList, 0, filterList.length);
  ```
  then applies the edittext / textview the new filters.  
+ 
+
+15. USING SELECT COUNT(WHEN ..'CLAUSE'.. THEN 1 END) If you wanted to search by criteria.
+https://stackoverflow.com/questions/6350154/selecting-count-from-different-criteria-on-a-table
       
 
