@@ -202,4 +202,19 @@ https://developer.android.com/guide/topics/permissions/overview
 15. USING SELECT COUNT(WHEN ..'CLAUSE'.. THEN 1 END) If you wanted to search by criteria.
 https://stackoverflow.com/questions/6350154/selecting-count-from-different-criteria-on-a-table
       
+      
+      
+#### Converting Excel Into CSV MYSQL #####
+
+https://lenashore.com/2012/04/how-to-add-quotes-to-your-cells-in-excel-automatically/
+
+Let's assume you have added quotes to each of your cells 
+
+Copy paste to notepad
+
+Replace the spaces as with semicolon 
+
+save as .csv
+
+there you go
 
