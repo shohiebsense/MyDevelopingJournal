@@ -218,3 +218,4 @@ save as .csv
 
 there you go
 
+16. Regarding Intent, TOP means foreground, (Current displayed Activity) Developer.Android states that the TOP intent may have more than one Activity.
