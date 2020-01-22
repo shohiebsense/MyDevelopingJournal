@@ -220,4 +220,6 @@ there you go
 
 17. Regarding Intent, TOP means foreground, (Current displayed Activity) Developer.Android states that the TOP intent may have more than one Activity.
 
-https://stackoverflow.com/questions/8076939/what-is-the-difference-between-intent-flag-activity-clear-top-and-finish-in-andr
+https://stackoverflow.com/questions/8076939/what-is-the-difference-between-intent-flag-activity-clear-top-and-finish-in-andr  
+
+18. You cannot run delayed functions (timer/postdelayed) in the background thread.
