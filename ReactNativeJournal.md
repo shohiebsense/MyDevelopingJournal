@@ -12,7 +12,11 @@
 > react-native run-android --no-jetifier       
 
 5.for constants, don't forget to install unimodules first
+https://www.npmjs.com/package/expo-constants
+https://docs.expo.io/versions/latest/sdk/constants/
 > npm install react-native-unimodules    
+> Follow the instructions in there
+> expo install expo-constants
 
 6. Refresh modules 
 > npx react-native eject   
