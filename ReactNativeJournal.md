@@ -32,3 +32,9 @@ flexDirection: "row",
 
 9. Keep in mind flex works so smart! it automatically wraps and adjusts the proportion of layout
 
+10. If you got Transform Error, verify the cache 
+> npm cache verify 
+or 
+> npm cache clean --force
+
+
