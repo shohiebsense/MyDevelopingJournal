@@ -34,7 +34,9 @@ flexDirection: "row",
 
 10. If you got Transform Error, verify the cache 
 > npm cache verify 
+
 or 
+
 > npm cache clean --force
 
 
