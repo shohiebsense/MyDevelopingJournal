@@ -26,5 +26,9 @@ https://docs.expo.io/versions/latest/sdk/constants/
 7. Uninstall packages
 > npm uninstall --save @unimodules/core
 
-8. 
+8. Match Parent both width and height
+flex: 1,
+flexDirection: "row",
+
+
 
