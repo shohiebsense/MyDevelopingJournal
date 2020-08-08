@@ -30,5 +30,5 @@ https://docs.expo.io/versions/latest/sdk/constants/
 flex: 1,
 flexDirection: "row",
 
-
+9. Keep in mind flex works so smart! it automatically wraps and adjusts the proportion of layout
 
