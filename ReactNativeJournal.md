@@ -39,4 +39,6 @@ or
 
 > npm cache clean --force
 
+10. bindActionCreators  Is in redux, not in react-redux now.
+> import { bindActionCreators } from 'redux';
 
