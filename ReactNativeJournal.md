@@ -42,3 +42,4 @@ or
 10. bindActionCreators  Is in redux, not in react-redux now.
 > import { bindActionCreators } from 'redux';
 
+`11. Consider using ... magic (three dots magic a.k.a spread operator)
