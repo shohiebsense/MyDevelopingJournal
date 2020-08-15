@@ -223,3 +223,7 @@ there you go
 https://stackoverflow.com/questions/8076939/what-is-the-difference-between-intent-flag-activity-clear-top-and-finish-in-andr  
 
 18. You cannot run delayed functions (timer/postdelayed) in the background thread.
+
+19. If conflicts come out between androidx and appcompat, consider checking gradle.properties
+> android.useAndroidX = true
+> android.enableJetifier=true
