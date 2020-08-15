@@ -42,14 +42,14 @@ or
 10. bindActionCreators  Is in redux, not in react-redux now.
 > import { bindActionCreators } from 'redux';
 
-`11. Consider using ... magic (three dots magic a.k.a spread operator)
+11. Consider using ... magic (three dots magic a.k.a spread operator)
 
-11. You might read this
+12. You might read this
 > ✅ Your project is ready!
 
-To run your project, navigate to the directory and run one of the following yarn commands.
+> To run your project, navigate to the directory and run one of the following yarn commands.
 
-- cd TestSomeNewProject
-- yarn android
-- yarn ios # you need to use macOS to build the iOS project - use managed workflow if you need to do iOS development without a Mac
-- yarn web
+> - cd TestSomeNewProject
+> - yarn android
+> - yarn ios # you need to use macOS to build the iOS project - use managed workflow if you need to do iOS development without a Mac
+> - yarn web
