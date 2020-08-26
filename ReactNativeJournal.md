@@ -59,3 +59,13 @@ or
 >  2. Delete node_modules: rm -rf node_modules and run yarn install
 >  3. Reset Metro's cache: yarn start --reset-cache
 >  4. Remove the cache: rm -rf /tmp/metro-*
+
+13. Visual Studio Code
+> F12 Or Ctrl + Left Click  -> Go To Declaration
+> Ctrl + P = Double Shift IntelliJ Alike
+> Alt + Left/Right -> Switch Tab
+> Alt + Up/Down -> Move The Code in a selected Line To Up/Down
+> Ctrl + F12 -> Go To Implementation
+> Ctrl + Shift P -> Command Palette
+> Command Palette + gotoTypeDefinition -> To Type Definition
+> Ctrl + Shfit + O -> Jump To Symbol (Variables / Function)
