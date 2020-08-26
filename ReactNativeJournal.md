@@ -53,3 +53,9 @@ or
 > - yarn android
 > - yarn ios # you need to use macOS to build the iOS project - use managed workflow if you need to do iOS development without a Mac
 > - yarn web
+
+12. Those things
+>  1. Clear watchman watches: watchman watch-del-all
+>  2. Delete node_modules: rm -rf node_modules and run yarn install
+>  3. Reset Metro's cache: yarn start --reset-cache
+>  4. Remove the cache: rm -rf /tmp/metro-*
