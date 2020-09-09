@@ -69,3 +69,8 @@ or
 > Ctrl + Shift P -> Command Palette  
 > Command Palette + gotoTypeDefinition -> To Type Definition  
 > Ctrl + Shfit + O -> Jump To Symbol (Variables / Function)  
+
+14. Restart React-native packager
+> $ npx react-native start
+
+
