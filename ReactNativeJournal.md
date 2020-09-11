@@ -73,5 +73,5 @@ or
 14. Restart React-native packager
 > $ npx react-native start
 
-15. Put height and width when it comes to showing an image, not only a source
+15. Put height and width when it comes to showing an image, not only the source
 
