@@ -75,3 +75,6 @@ or
 
 15. Put height and width when it comes to showing an image, not only the source
 
+16. Run Metro Bundler on Web
+> npx start
+
