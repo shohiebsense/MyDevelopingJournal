@@ -78,3 +78,6 @@ or
 16. Run Metro Bundler on Web
 > npx start
 
+17. Lottie And Its Animations
+> https://github.com/react-native-community/lottie-react-native  
+> https://lottiefiles.com  
