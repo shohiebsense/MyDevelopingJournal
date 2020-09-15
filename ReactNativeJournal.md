@@ -81,3 +81,15 @@ or
 17. Lottie And Its Animations
 > https://github.com/react-native-community/lottie-react-native  
 > https://lottiefiles.com  
+
+18. To Debug, either you can use
+> console.log();
+or
+> Using Browser and go to console.
+In emulator, CTRL+M or open developer menu in node (metro bundler)
+Likely http://localhost:8081/debugger-ui/ address will appear
+Open Inspect Element and go to debugger
+> Go to breakpoints and tick pause on exceptions, pause on caught exceptions
+> reload the app again
+> Do a stepover (F10) 
+It will appear the line that makes an error.
