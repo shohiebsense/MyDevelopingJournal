@@ -107,3 +107,10 @@ It will appear the line that makes an error.
     react-navigation-drawer -> @react-navigation/drawer
     
 > https://reactnavigation.org/docs/upgrading-from-4.x/  
+
+20. Stuck in Loading dependency graph, done.
+https://stackoverflow.com/questions/55067920/npm-run-android-hangs-on-loading-dependency-graph-done-bluewallet
+> yarn start  
+on new terminal
+> react-native run-android
+
