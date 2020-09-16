@@ -97,3 +97,13 @@ Open Inspect Element and go to debugger
 > reload the app again  
 > Do a stepover (F10)   
 It will appear the line that makes an error.  
+
+19. 
+
+    react-navigation -> @react-navigation/native
+    react-navigation-stack -> @react-navigation/stack
+    react-navigation-tabs -> @react-navigation/bottom-tabs, @react-navigation/material-top-tabs
+    react-navigation-material-bottom-tabs -> @react-navigation/material-bottom-tabs
+    react-navigation-drawer -> @react-navigation/drawer
+    
+> https://reactnavigation.org/docs/upgrading-from-4.x/  
