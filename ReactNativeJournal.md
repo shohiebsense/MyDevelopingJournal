@@ -114,3 +114,14 @@ https://stackoverflow.com/questions/55067920/npm-run-android-hangs-on-loading-de
 on new terminal
 > react-native run-android
 
+21. Upgrading Old Version (Cli Project)
+Better not to "npm upgrade" or npm-update first  
+Use upgrade helper  
+https://react-native-community.github.io/upgrade-helper/  
+Delete .lock files  
+delete node_modules folder  
+Change the package.json accordingly  
+Then,     
+> yarn  
+Change the blacklist.js in metro-config/src/defaults/blacklist.js
+https://stackoverflow.com/questions/58120990/how-to-resolve-the-error-on-react-native-start
