@@ -125,3 +125,8 @@ Then,
 > yarn  
 Change the blacklist.js in metro-config/src/defaults/blacklist.js
 https://stackoverflow.com/questions/58120990/how-to-resolve-the-error-on-react-native-start
+
+
+22. Expo has react-native-gesture-handler, no need to add react-native-gesture-handler in package
+https://stackoverflow.com/questions/54486525/tried-to-register-two-views-with-the-same-name-rngesturehandlerbutton
+https://github.com/software-mansion/react-native-gesture-handler/issues/451
