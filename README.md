@@ -227,3 +227,28 @@ https://stackoverflow.com/questions/8076939/what-is-the-difference-between-inten
 19. If conflicts come out between androidx and appcompat, consider checking gradle.properties
 > android.useAndroidX = true  
 > android.enableJetifier=true
+
+20. Set Default Locale
+https://stackoverflow.com/a/61572489
+``` java
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        Context newContext = updateBaseContextLocale(newBase);
+        super.attachBaseContext(newContext);
+        applyOverrideConfiguration(newContext.getResources().getConfiguration());
+    }
+
+
+    private Context updateBaseContextLocale(Context context) {
+        Locale locale = new Locale("id");
+        Locale.setDefault(locale);
+        return updateResourcesLocale(context, locale);
+    }
+
+    private Context updateResourcesLocale(Context context, Locale locale) {
+        Configuration configuration = context.getResources().getConfiguration();
+        configuration.setLocale(locale);
+        return context.createConfigurationContext(configuration);
+    }
+```
+
