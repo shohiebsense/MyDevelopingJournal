@@ -252,3 +252,27 @@ https://stackoverflow.com/a/61572489
     }
 ```
 
+21. Handle When a view is at the bottom of a viewpager
+```xml
+<CoordinatorLayout>
+    <VariousView>
+    </VariousView>
+    <LinearLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <ViewPager2
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:fitsSystemWindows="true"
+                android:layout_weight="1/>
+                                       
+            <Button
+                android:id="@+id/button_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            />
+
+    </LinearLayout>
+</CoordinatorLayout>
+```
