@@ -275,7 +275,8 @@ https://stackoverflow.com/a/61572489
 </CoordinatorLayout>
 ```
 
-22. When you put CoordinatorLayout, you want your layout scroll to the top first.
+22. When you put CoordinatorLayout, attribute app:layout_scrollFlags="scroll|enterAlwaysCollapsed" makes the layout collapsed and scroll slightly to the bottom,
+you want your layout scroll to the top first.
 ```xml
     <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/layout_toolbar_collapsing"
