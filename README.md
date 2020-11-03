@@ -274,3 +274,24 @@ https://stackoverflow.com/a/61572489
     </LinearLayout>
 </CoordinatorLayout>
 ```
+
+22. When you put CoordinatorLayout, you want your layout scroll to the top first.
+```xml
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/layout_toolbar_collapsing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
+            >
+            
+          
+            ...
+            
+    </com.google.android.material.appbar.CollapsingToolbarLayout
+
+```
+
+```kotlin
+layout_toolbar_collapsing.scrollTo(0, view.bottom) //or 0
+```
+
