@@ -270,9 +270,7 @@ https://stackoverflow.com/a/61572489
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                app:layout_behavior="@string/appbar_scrolling_view_behavior"
-            />
-
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
     </LinearLayout>
 </CoordinatorLayout>
 ```
