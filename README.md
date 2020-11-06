@@ -296,7 +296,58 @@ you want your layout scroll to the top first.
 layout_toolbar_collapsing.scrollTo(0, view.bottom) //or 0
 ```
 23. Toolbar overlaps its contents, the theme is no action bar or 
-> <item name="windowActionBar">false</item>
-> <item name="windowNoTitle">true</item>
+```xml
+   <item name="windowActionBar">false</item>
+   <item name="windowNoTitle">true</item>
+```
+add margin Top to the size of  toolbar height. =>
+```xml
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+     android:fitsSystemWindows="true"
+     android:background="@drawable/green"
+     android:fitsSystemWindows="true">
+      <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/layout_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">    
+           <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:textAppearance="@style/ToolbarStyle"
+            android:textColor="@color/White"
+            app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
+            />
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/layout_toolbar_collapsing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+            
+            <!-- or ConstraintLayout -->
+            <LinearLayout
+                    android:id="@+id/layout_desc_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="?attr/actionBarSize"
+                    android:background="@drawable/bg_stroke_rounded_corner"
+                    android:orientation="vertical"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:padding="@dimen/padding_small">
+                    
+                ,,,,contents
+                
+            </LinearLayout>
+            
+            
+         </com.google.android.material.appbar.CollapsingToolbarLayout>
+      </com.google.android.material.appbar.AppBarLayout>
+        ...body contents..
+       
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+```
 
 
