@@ -295,4 +295,8 @@ you want your layout scroll to the top first.
 ```kotlin
 layout_toolbar_collapsing.scrollTo(0, view.bottom) //or 0
 ```
+23. Toolbar overlaps its contents, the theme is no action bar or 
+> <item name="windowActionBar">false</item>
+> <item name="windowNoTitle">true</item>
+
 
