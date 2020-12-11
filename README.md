@@ -350,4 +350,4 @@ add margin Top to the size of  toolbar height. =>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 ```
 
-
+24. When you put autocompletetextview to show dropdown right after a new page is open. App can crash, delay the view then show dropdown. (view.postdelayed)  
