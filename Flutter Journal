@@ -2,7 +2,9 @@
 
 Run Through CMD
 
+`flutter.bat pub global activate devtools`
 `flutter pub global run devtools`
+
 
 Run the app
 
