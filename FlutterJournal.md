@@ -18,11 +18,14 @@ Get the url, example
 2. List Of Material Colors
 
 * Dark Mode
-  * `#374352` / `0xFF374352`
+  * `#374352`/`0xFF374352`
   * `Colors.black54`
   * `Colors.blueGrey.shade700`
-  * `#1d1d1d` / `0xff1d1d1d`
-
+  * `#1d1d1d`/`0xff1d1d1d`
+  * `#1E1E1E`/`0xff1E1E1E`
+  * `#121212`/`0xff121212`
+  * `#0xff1F1F1F`/`#F1F1F`
+  * 
 
 * Light Mode
   * `#E6EEEFF` / `0XFFe6eeff`
