@@ -1,4 +1,4 @@
- 1. Devtools not working
+1. Devtools not working
 
 Run Through CMD
 
