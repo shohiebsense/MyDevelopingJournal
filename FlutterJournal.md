@@ -34,10 +34,10 @@ Get the url, example
 
 4. Ouval Shape
   `borderRadius: BorderRadius.circular(50)` 
-  `padding: EdgeInsets.symmetric(horizontal: padding, vertical: padding / 2)`
-  `width: padding * 2`
+  `padding: EdgeInsets.symmetric(horizontal: padding, vertical: padding / 2)`  
+  `width: padding * 2`  
 
-5. Rounded Shape
-   `borderRadius: BorderRadius.circular(40),`
-   `width: padding * 2.5`
-   `height: padding * 2`
+5. Rounded Shape  
+   `borderRadius: BorderRadius.circular(40),`  
+   `width: padding * 2.5`  
+   `height: padding * 2`  
