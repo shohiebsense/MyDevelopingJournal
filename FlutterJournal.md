@@ -21,6 +21,7 @@ Get the url, example
   * `#374352` / `0xFF374352`
   * `Colors.black54`
   * `Colors.blueGrey.shade700`
+  * `#1d1d1d` / `0xff1d1d1d`
 
 
 * Light Mode
