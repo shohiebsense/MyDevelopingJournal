@@ -32,7 +32,7 @@ Get the url, example
   * Offset(-4.0, -4.0),
   * blurRadius: 15.0, spreadRadius: 1.0
 
-4. Ouval Shape
+4. Ouval Shape  
   `borderRadius: BorderRadius.circular(50)` 
   `padding: EdgeInsets.symmetric(horizontal: padding, vertical: padding / 2)`  
   `width: padding * 2`  
