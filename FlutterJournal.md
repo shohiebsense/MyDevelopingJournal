@@ -33,7 +33,7 @@ Get the url, example
   * blurRadius: 15.0, spreadRadius: 1.0
 
 4. Ouval Shape  
-  `borderRadius: BorderRadius.circular(50)` 
+  `borderRadius: BorderRadius.circular(50)`  
   `padding: EdgeInsets.symmetric(horizontal: padding, vertical: padding / 2)`  
   `width: padding * 2`  
 
