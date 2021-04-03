@@ -45,3 +45,5 @@ Get the url, example
    `borderRadius: BorderRadius.circular(40),`  
    `width: padding * 2.5`  
    `height: padding * 2`  
+   
+6. Shimmer synonym: Skeleton (Animation) 
