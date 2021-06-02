@@ -353,3 +353,5 @@ add margin Top to the size of  toolbar height. =>
 24. When you put autocompletetextview to show dropdown right after a new page is open. App can crash, delay the view then show dropdown. (view.postdelayed)  
 
 25. Updating the app needs REQUEST_INSTALL_PACKAGES permission (normal not runtime) manifest.xml
+
+26. Not All places are supported with 3d Buildings on Google Map, oer 2021/06/02
