@@ -355,3 +355,5 @@ add margin Top to the size of  toolbar height. =>
 25. Updating the app needs REQUEST_INSTALL_PACKAGES permission (normal not runtime) manifest.xml
 
 26. Not All places are supported with 3d Buildings on Google Map, oer 2021/06/02
+
+27. Android Studio is currently not stable for Mac Big Sur with M1 Chip. It affects Emulator and the Terminal. Use the Arctic Fox. Still Beta per 2021 June 25
