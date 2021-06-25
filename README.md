@@ -356,4 +356,6 @@ add margin Top to the size of  toolbar height. =>
 
 26. Not All places are supported with 3d Buildings on Google Map, oer 2021/06/02
 
-27. Android Studio is currently not stable for Mac Big Sur with M1 Chip. It affects Emulator and the Terminal. Use the Arctic Fox. Still Beta per 2021 June 25
+27. Android Studio is currently not stable for Mac Big Sur with M1 Chip. It affects Emulator and the Terminal. Use the Arctic Fox. Still Beta per 2021 June 25'
+
+28. Use Emulator with arm64 processor when you are using Mac with M1 Chip.
