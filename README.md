@@ -359,3 +359,13 @@ add margin Top to the size of  toolbar height. =>
 27. Android Studio is currently not stable for Mac Big Sur with M1 Chip. It affects Emulator and the Terminal. Use the Arctic Fox. Still Beta per 2021 June 25'
 
 28. Use Emulator with arm64 processor when you are using Mac with M1 Chip.
+
+29. Another issue on using Room with M1 Chip Android Studio per 2021/06/28
+
+https://issuetracker.google.com/issues/174695268?pli=1
+
+https://www.reddit.com/r/androiddev/comments/lotgzg/room_database_in_intellij_idea_apple_silicon/
+
+https://youtrack.jetbrains.com/issue/DBE-12342 
+
+
