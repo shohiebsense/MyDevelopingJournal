@@ -368,4 +368,4 @@ https://www.reddit.com/r/androiddev/comments/lotgzg/room_database_in_intellij_id
 
 https://youtrack.jetbrains.com/issue/DBE-12342 
 
-
+30. Use STABLE Version of Gradle to integrate with Dependency Injection Libraries like Hilt
