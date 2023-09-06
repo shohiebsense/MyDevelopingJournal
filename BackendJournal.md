@@ -30,3 +30,5 @@ RewriteRule ^(.*)\?*$ index.php/$1 [L,QSA]
             ),
         ),
 ```
+
+> 3. In Golang if in your context, you dont use the pointer, dont need to worry about the payload, if the field is not supplied, meaning is null, by golang itself wouldnt be treated as nil
